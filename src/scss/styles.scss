@@ -32,12 +32,12 @@ html {
                 background-size: cover !important;
                 display: block;
                 height: 100%;
-                border: 3px solid white;
+                border: 5px solid white;
                 border-radius: 3px;
             }
 
             label:has(> input:checked) {
-            border: 3px solid rgb(235, 63, 100);
+            border: 5px solid rgb(235, 63, 100);
             }
         }    
     }

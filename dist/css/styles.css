@@ -29,11 +29,11 @@ html #container div label {
   background-size: cover !important;
   display: block;
   height: 100%;
-  border: 3px solid white;
+  border: 5px solid white;
   border-radius: 3px;
 }
 html #container div label:has(> input:checked) {
-  border: 3px solid #eb3f64;
+  border: 5px solid #eb3f64;
 }
 
 /*# sourceMappingURL=styles.css.map */
