@@ -1,0 +1,44 @@
+html {
+    background-color: rgb(231, 240, 243);
+
+    #container {
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, .4fr));
+    background-color: rgb(231, 240, 243);
+        
+        div {
+            position: relative;
+            min-height: 300px;
+            width: 100%;
+            box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+
+            
+            .expand {
+                position: absolute;
+                top: 1.5rem;
+                left: 1rem;
+                color: rgb(235, 63, 100);
+            }
+            
+            input {
+                padding: 0;
+                display: block;
+                opacity: 0;
+            }
+            
+            label {
+                background-repeat: no-repeat !important;
+                background-size: cover !important;
+                display: block;
+                height: 100%;
+                border: 3px solid white;
+                border-radius: 3px;
+            }
+
+            label:has(> input:checked) {
+            border: 3px solid rgb(235, 63, 100);
+            }
+        }    
+    }
+}
