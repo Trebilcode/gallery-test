@@ -32,6 +32,9 @@ html #container div label {
   border: 5px solid white;
   border-radius: 3px;
 }
+html #container div .background {
+  background: none !important;
+}
 html #container div label:has(> input:checked) {
   border: 5px solid #eb3f64;
 }
