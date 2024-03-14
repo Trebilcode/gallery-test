@@ -1,10 +1,11 @@
-html {
-    background-color: rgb(231, 240, 243);
+html, body {
+    background-color: rgb(231, 240, 243) !important;
 
     #container {
-    max-width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(300px, .4fr));
-    background-color: rgb(231, 240, 243);
+            max-width: 99rem;
+            width: 100%;
+            grid-template-columns: repeat(auto-fill, minmax(300px, .4fr));
+            background-color: rgb(231, 240, 243);
         
         div {
             position: relative;
@@ -44,5 +45,5 @@ html {
             border: 5px solid rgb(235, 63, 100);
             }
         }    
-    }
+    }    
 }

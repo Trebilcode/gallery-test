@@ -1,30 +1,31 @@
-html {
-  background-color: #e7f0f3;
+html, body {
+  background-color: #e7f0f3 !important;
 }
-html #container {
-  max-width: 100%;
+html #container, body #container {
+  max-width: 99rem;
+  width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(300px, 0.4fr));
   background-color: #e7f0f3;
 }
-html #container div {
+html #container div, body #container div {
   position: relative;
   min-height: 300px;
   width: 100%;
   box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
 }
-html #container div .expand {
+html #container div .expand, body #container div .expand {
   position: absolute;
   top: 1.5rem;
   left: 1rem;
   color: #eb3f64;
 }
-html #container div input {
+html #container div input, body #container div input {
   padding: 0;
   display: block;
   opacity: 0;
 }
-html #container div label {
+html #container div label, body #container div label {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   display: block;
@@ -32,10 +33,10 @@ html #container div label {
   border: 5px solid white;
   border-radius: 3px;
 }
-html #container div .background {
+html #container div .background, body #container div .background {
   background: none !important;
 }
-html #container div label:has(> input:checked) {
+html #container div label:has(> input:checked), body #container div label:has(> input:checked) {
   border: 5px solid #eb3f64;
 }
 
